@@ -87,12 +87,12 @@ In the blank [notebook](notebook.ipynb) included in this lesson:
     Your data should look like this:
 
     ```output
-    	Seconds	Country	Latitude	Longitude
-    2	20.0	3		53.200000	-2.916667
-    3	20.0	4		28.978333	-96.645833
-    14	30.0	4		35.823889	-80.253611
-    23	60.0	4		45.582778	-122.352222
-    24	3.0		3		51.783333	-0.783333
+     Seconds Country Latitude Longitude
+    2 20.0 3  53.200000 -2.916667
+    3 20.0 4  28.978333 -96.645833
+    14 30.0 4  35.823889 -80.253611
+    23 60.0 4  45.582778 -122.352222
+    24 3.0  3  51.783333 -0.783333
     ```
 
 ## Exercise - build your model
@@ -193,33 +193,33 @@ Now you can build a Flask app to call your model and return similar results, but
 
     ```css
     body {
-    	width: 100%;
-    	height: 100%;
-    	font-family: 'Helvetica';
-    	background: black;
-    	color: #fff;
-    	text-align: center;
-    	letter-spacing: 1.4px;
-    	font-size: 30px;
+     width: 100%;
+     height: 100%;
+     font-family: 'Helvetica';
+     background: black;
+     color: #fff;
+     text-align: center;
+     letter-spacing: 1.4px;
+     font-size: 30px;
     }
     
     input {
-    	min-width: 150px;
+     min-width: 150px;
     }
     
     .grid {
-    	width: 300px;
-    	border: 1px solid #2d2d2d;
-    	display: grid;
-    	justify-content: center;
-    	margin: 20px auto;
+     width: 300px;
+     border: 1px solid #2d2d2d;
+     display: grid;
+     justify-content: center;
+     margin: 20px auto;
     }
     
     .box {
-    	color: #fff;
-    	background: #2d2d2d;
-    	padding: 12px;
-    	display: inline-block;
+     color: #fff;
+     background: #2d2d2d;
+     padding: 12px;
+     display: inline-block;
     }
     ```
 
